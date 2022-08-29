@@ -3,14 +3,14 @@ name: my first workflow
 on: [push]
 jobs:
   run-shell-command:
-  runs-on: ubuntu-latest
-  steps:
-    - name: acho a string
-      run: echo "Hello World"
-    - name: nultiline script
-      run: |
-        node -v
-        npa -v
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a string
+        run: echo "Hello World"
+      - name: nultiline script
+        run: |
+          node -v
+          npm -v
     - name: python command
       run: |
         import platform
