@@ -1,0 +1,23 @@
+name: lone
+age: 25
+address: "nyway num1"
+active: true
+key:
+  key1: value1
+  key2: value2
+  key3:
+jsonObject: {key: value, key2: value2}
+jobArray:
+  -item1
+  -item2
+myArray:
+  -item1
+  - {name: tine, age: 27}
+longText: >
+  hello world
+  this is irrelevant stuff
+  just testing it works
+noLfText: |
+  hghgghhg
+  ls -a
+  pwd
