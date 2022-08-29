@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: acho a string
         run: echo "Hello World"
-          - name: nultiline script
-          run: |
+      - name: nultiline script
+        run: |
             node -v
             npa -v
